@@ -1,0 +1,18 @@
+title: Stream Safe(r) Music
+originalAuthor: ColossusSteppes
+description: Replaces certain songs to prevent copyright claims. Uses Leinxad's OST Selector
+game: kh2
+dependencies: 
+assets:
+- name: bgm\music155.win32.scd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  source:
+  - name: bgm\music155.win32.scd
+- name: bgm\music530.win32.scd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  source:
+  - name: bgm\music530.win32.scd
